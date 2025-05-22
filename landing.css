@@ -1,0 +1,94 @@
+.section-padding {
+  padding: 3rem 2rem;
+  background: #111;
+  color: #eee;
+  text-align: center;
+  animation: fadeIn 2s ease;
+}
+
+#features h2,
+#brands-highlight h2,
+#testimonials h2 {
+  color: #f8b400;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #222;
+  padding: 1.5rem;
+  border-radius: 15px;
+  max-width: 250px;
+  box-shadow: 0 0 15px #f8b400aa;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  margin-bottom: 0.5rem;
+  color: #f8b400;
+}
+
+.brands-photos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.brands-photos img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #f8b400aa;
+  transition: transform 0.3s ease;
+}
+
+.brands-photos img:hover {
+  transform: scale(1.1);
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: #222;
+  padding: 1.5rem;
+  border-radius: 15px;
+  max-width: 300px;
+  box-shadow: 0 0 15px #f8b400aa;
+  font-style: italic;
+  color: #ddd;
+  transition: box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+  box-shadow: 0 0 25px #f8b400ff;
+}
+
+.testimonial h4 {
+  margin-top: 1rem;
+  color: #f8b400;
+  font-weight: bold;
+}
